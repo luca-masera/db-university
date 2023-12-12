@@ -12,3 +12,9 @@ Modellizzare la struttura di un database per memorizzare tutti i dati riguardant
 Pensiamo a quali entità (tabelle) creare per il nostro database e cerchiamo poi di stabilirne le relazioni. Infine, andiamo a definire le colonne e i tipi di dato di ogni tabella.
 Utilizzare https://www.diagrams.net/ per la creazione dello schema.
 Esportare quindi il diagramma in jpg o png e caricarlo nella repo.
+
+Esercizio del 12/12/2023:
+nome repo: db-university
+Dopo aver creato un nuovo database nel vostro phpMyAdmin e aver importato lo schema allegato, eseguite le query del file allegato.
+Cosa consegnare?
+Dopo aver testato le vostre query con phpMyAdmin, riportatele in un file txt e caricatelo nella vostra repo.
