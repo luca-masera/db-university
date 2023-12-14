@@ -8,4 +8,7 @@ SELECT AVG(`vote`) AS 'media dei voti' FROM `exam_student`;
 SELECT AVG(`vote`) AS 'media voti' FROM `exam_student` GROUP BY 'media voti';
 
 
-4. Contare quanti corsi di laurea ci sono per ogni dipartiment
+4. Contare quanti corsi di laurea ci sono per ogni dipartimento
+SELECT COUNT(`id`) AS `num_corsi`, `department_id` AS `num_dipartimento`
+FROM `degrees` 
+GROUP BY `department_id`;
